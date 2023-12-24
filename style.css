@@ -1,0 +1,196 @@
+/* base styles */
+
+* {
+    box-sizing: border-box;
+    font-family: Cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.75em;
+    }
+
+h2 {
+    width: 45%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    position: absolute;
+    left: 55%;
+    font-size: 1.25em;
+}
+
+
+article {
+    border: 1px solid black;
+    background-color: #d9d9d9;
+    position: relative;
+}
+
+p {
+    text-align: left;
+    margin: 50px 2% 2% 2%;
+}
+
+ 
+/* subheadings */
+
+#chicken {
+    background-color: #f59595;
+}
+
+#beef {
+    background-color: #8a0101;
+    color: #ffffff;
+}
+
+#sushi {
+    background-color: #f6ebb2;
+}
+
+
+/* Responsive settings */
+
+
+@media (min-width: 992px) {
+
+    #headingwrap {
+        margin: 60px 0px 80px 0px;
+    }
+
+    #col1 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 88%;
+        margin-left: 9%;
+        margin-right: 3%;
+    }
+
+
+    #col2 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 88%;
+        margin-left: 3%;
+        margin-right: 9%;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #headingwrap {
+        margin: 40px 0px 40px 0px;
+    }
+
+    #col1 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+
+
+    #col2 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 94%;
+        margin-left: 2%;
+        margin-right: 4%
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+        margin-top: 18px;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    #headingwrap {
+        margin: 20px 0px 20px 0px;
+    }
+
+    #col1 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
